@@ -1,0 +1,21 @@
+name: drupalx-tema
+type: theme
+description: ''
+package: Other
+core_version_requirement: ^10
+'base theme': stable9
+version: 1.1.0
+starterkit: true
+libraries:
+  - drupalx-tema/global
+components:
+  namespaces:
+    drupalx-tema:
+      - components
+      - templates
+regions:
+  primary_menu: 'Primary Menu'
+  highlighted: Highlighted
+  content: Content
+  footer: Footer
+generator: 'drupalx_theme:1.0'
